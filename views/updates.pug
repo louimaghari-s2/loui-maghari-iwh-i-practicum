@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    h1 Add a New Record
+    a(href='/') Return to the homepage
+    br
+    br
+    form(method='POST', action='/update-cobj')
+      label Name:
+      input(type='text', name='name')
+      br
+      label Species:
+      input(type='text', name='species')
+      br
+      label Age:
+      input(type='number', name='age')
+      br
+      button(type='submit') Submit

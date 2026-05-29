@@ -9,7 +9,9 @@ body, * {
 h1 {
     margin: 1rem;
 }
-
+h2 {
+     margin: 1rem;
+}
 .cards {
     display: flex;
     align-items: center;
@@ -55,4 +57,50 @@ input[type="submit"] {
     border: none;
     padding: .375rem 1rem;
     margin-top: 10px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+}
+
+/* Button */
+a {
+    display: block;
+    max-width: max-content;
+    width: 100%;
+    text-decoration: none;
+    padding: 8px 16px;
+    background: blue;
+    color: #fff;
+    margin: 20px auto;
+}
+
+/* Table */
+table {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+}
+table th, table td {
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+/* Form */
+form {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    width: 100%;
+    padding: 5px;
+}
+button {
+    background: blue;
+    color: #fff;
+    padding: 10px 16px;
+    border: 0;
 }
